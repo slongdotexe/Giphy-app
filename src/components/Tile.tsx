@@ -21,8 +21,9 @@ export const GalleryTile = forwardRef(
         ref={ref}
         className={css({
           width: '50%',
+          height: fixed_width.height,
+          objectFit: 'contain',
           minHeight: '100px',
-          aspectRatio: Number(fixed_width.width) / Number(fixed_width.height),
           lg: {
             width: '25%',
           },

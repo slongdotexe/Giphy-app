@@ -8,7 +8,7 @@ import { SearchInput } from './SearchInputs'
 const endpoint = 'https://api.giphy.com/v1/gifs'
 const trendingEndpoint = `${endpoint}/trending`
 const searchEndpoint = `${endpoint}/search`
-const apiKey = 'UdHd7NDGote2WzHtFBkz22E6cqI5xA12'
+const apiKey = import.meta.env.VITE_GIPHY_API_KEY
 
 interface GiphyApiResponse {
   data?: GiphyApiData[]
