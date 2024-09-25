@@ -2,6 +2,7 @@
 
 ```
 yarn install
+yarn prepare
 yarn dev
 ```
 
